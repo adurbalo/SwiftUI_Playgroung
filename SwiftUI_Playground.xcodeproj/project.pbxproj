@@ -18,6 +18,7 @@
 		1A2EEC3B23E0537A00EF2D08 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC3923E0537A00EF2D08 /* Order.swift */; };
 		1A2EEC3D23E053A500EF2D08 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A2EEC3C23E053A400EF2D08 /* menu.json */; };
 		1A2EEC3F23E058D000EF2D08 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC3E23E058D000EF2D08 /* ItemRow.swift */; };
+		1A2EEC4123E05FE400EF2D08 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC4023E05FE400EF2D08 /* ItemDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1A2EEC3923E0537A00EF2D08 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1A2EEC3C23E053A400EF2D08 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		1A2EEC3E23E058D000EF2D08 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		1A2EEC4023E05FE400EF2D08 /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				1A2EEC3023E0533100EF2D08 /* Info.plist */,
 				1A2EEC2A23E0533100EF2D08 /* Preview Content */,
 				1A2EEC3E23E058D000EF2D08 /* ItemRow.swift */,
+				1A2EEC4023E05FE400EF2D08 /* ItemDetails.swift */,
 			);
 			path = SwiftUI_Playground;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A2EEC3B23E0537A00EF2D08 /* Order.swift in Sources */,
+				1A2EEC4123E05FE400EF2D08 /* ItemDetails.swift in Sources */,
 				1A2EEC2323E0532E00EF2D08 /* AppDelegate.swift in Sources */,
 				1A2EEC2523E0532E00EF2D08 /* SceneDelegate.swift in Sources */,
 				1A2EEC3F23E058D000EF2D08 /* ItemRow.swift in Sources */,
