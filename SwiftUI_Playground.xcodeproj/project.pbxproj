@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A2EEC1F23E0532E00EF2D08 /* SwiftUI_Playgroung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Playgroung.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2EEC1F23E0532E00EF2D08 /* SwiftUI_Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A2EEC2223E0532E00EF2D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A2EEC2423E0532E00EF2D08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1A2EEC2623E0532E00EF2D08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		1A2EEC1623E0532E00EF2D08 = {
 			isa = PBXGroup;
 			children = (
-				1A2EEC2123E0532E00EF2D08 /* SwiftUI_Playgroung */,
+				1A2EEC2123E0532E00EF2D08 /* SwiftUI_Playground */,
 				1A2EEC2023E0532E00EF2D08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		1A2EEC2023E0532E00EF2D08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A2EEC1F23E0532E00EF2D08 /* SwiftUI_Playgroung.app */,
+				1A2EEC1F23E0532E00EF2D08 /* SwiftUI_Playground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A2EEC2123E0532E00EF2D08 /* SwiftUI_Playgroung */ = {
+		1A2EEC2123E0532E00EF2D08 /* SwiftUI_Playground */ = {
 			isa = PBXGroup;
 			children = (
 				1A2EEC2223E0532E00EF2D08 /* AppDelegate.swift */,
@@ -76,7 +76,7 @@
 				1A2EEC3023E0533100EF2D08 /* Info.plist */,
 				1A2EEC2A23E0533100EF2D08 /* Preview Content */,
 			);
-			path = SwiftUI_Playgroung;
+			path = SwiftUI_Playground;
 			sourceTree = "<group>";
 		};
 		1A2EEC2A23E0533100EF2D08 /* Preview Content */ = {
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A2EEC1E23E0532E00EF2D08 /* SwiftUI_Playgroung */ = {
+		1A2EEC1E23E0532E00EF2D08 /* SwiftUI_Playground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A2EEC3323E0533100EF2D08 /* Build configuration list for PBXNativeTarget "SwiftUI_Playgroung" */;
+			buildConfigurationList = 1A2EEC3323E0533100EF2D08 /* Build configuration list for PBXNativeTarget "SwiftUI_Playground" */;
 			buildPhases = (
 				1A2EEC1B23E0532E00EF2D08 /* Sources */,
 				1A2EEC1C23E0532E00EF2D08 /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUI_Playgroung;
+			name = SwiftUI_Playground;
 			productName = SwiftUI_Playgroung;
-			productReference = 1A2EEC1F23E0532E00EF2D08 /* SwiftUI_Playgroung.app */;
+			productReference = 1A2EEC1F23E0532E00EF2D08 /* SwiftUI_Playground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A2EEC1A23E0532E00EF2D08 /* Build configuration list for PBXProject "SwiftUI_Playgroung" */;
+			buildConfigurationList = 1A2EEC1A23E0532E00EF2D08 /* Build configuration list for PBXProject "SwiftUI_Playground" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A2EEC1E23E0532E00EF2D08 /* SwiftUI_Playgroung */,
+				1A2EEC1E23E0532E00EF2D08 /* SwiftUI_Playground */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A2EEC1A23E0532E00EF2D08 /* Build configuration list for PBXProject "SwiftUI_Playgroung" */ = {
+		1A2EEC1A23E0532E00EF2D08 /* Build configuration list for PBXProject "SwiftUI_Playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A2EEC3123E0533100EF2D08 /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A2EEC3323E0533100EF2D08 /* Build configuration list for PBXNativeTarget "SwiftUI_Playgroung" */ = {
+		1A2EEC3323E0533100EF2D08 /* Build configuration list for PBXNativeTarget "SwiftUI_Playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A2EEC3423E0533100EF2D08 /* Debug */,
