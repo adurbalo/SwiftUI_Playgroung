@@ -17,6 +17,7 @@
 		1A2EEC3A23E0537A00EF2D08 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC3823E0537A00EF2D08 /* Menu.swift */; };
 		1A2EEC3B23E0537A00EF2D08 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC3923E0537A00EF2D08 /* Order.swift */; };
 		1A2EEC3D23E053A500EF2D08 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A2EEC3C23E053A400EF2D08 /* menu.json */; };
+		1A2EEC3F23E058D000EF2D08 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC3E23E058D000EF2D08 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1A2EEC3823E0537A00EF2D08 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		1A2EEC3923E0537A00EF2D08 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1A2EEC3C23E053A400EF2D08 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		1A2EEC3E23E058D000EF2D08 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				1A2EEC2D23E0533100EF2D08 /* LaunchScreen.storyboard */,
 				1A2EEC3023E0533100EF2D08 /* Info.plist */,
 				1A2EEC2A23E0533100EF2D08 /* Preview Content */,
+				1A2EEC3E23E058D000EF2D08 /* ItemRow.swift */,
 			);
 			path = SwiftUI_Playground;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				1A2EEC3B23E0537A00EF2D08 /* Order.swift in Sources */,
 				1A2EEC2323E0532E00EF2D08 /* AppDelegate.swift in Sources */,
 				1A2EEC2523E0532E00EF2D08 /* SceneDelegate.swift in Sources */,
+				1A2EEC3F23E058D000EF2D08 /* ItemRow.swift in Sources */,
 				1A2EEC2723E0532E00EF2D08 /* ContentView.swift in Sources */,
 				1A2EEC3723E0536500EF2D08 /* Helper.swift in Sources */,
 				1A2EEC3A23E0537A00EF2D08 /* Menu.swift in Sources */,
@@ -301,9 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Playgroung/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Playground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUI_Playgroung/Info.plist;
+				INFOPLIST_FILE = SwiftUI_Playground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +324,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Playgroung/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Playground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUI_Playgroung/Info.plist;
+				INFOPLIST_FILE = SwiftUI_Playground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
