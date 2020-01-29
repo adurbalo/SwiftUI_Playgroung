@@ -21,6 +21,7 @@
 		1A2EEC4123E05FE400EF2D08 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC4023E05FE400EF2D08 /* ItemDetails.swift */; };
 		1AA30C2823E1BEAE0014022F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA30C2723E1BEAE0014022F /* OrderView.swift */; };
 		1AA30C2A23E1C4680014022F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA30C2923E1C4680014022F /* AppView.swift */; };
+		1AA30C2C23E1C89F0014022F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA30C2B23E1C89F0014022F /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		1A2EEC4023E05FE400EF2D08 /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
 		1AA30C2723E1BEAE0014022F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		1AA30C2923E1C4680014022F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		1AA30C2B23E1C89F0014022F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				1A2EEC4023E05FE400EF2D08 /* ItemDetails.swift */,
 				1AA30C2723E1BEAE0014022F /* OrderView.swift */,
 				1AA30C2923E1C4680014022F /* AppView.swift */,
+				1AA30C2B23E1C89F0014022F /* CheckoutView.swift */,
 			);
 			path = SwiftUI_Playground;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A2EEC3B23E0537A00EF2D08 /* Order.swift in Sources */,
+				1AA30C2C23E1C89F0014022F /* CheckoutView.swift in Sources */,
 				1A2EEC4123E05FE400EF2D08 /* ItemDetails.swift in Sources */,
 				1A2EEC2323E0532E00EF2D08 /* AppDelegate.swift in Sources */,
 				1A2EEC2523E0532E00EF2D08 /* SceneDelegate.swift in Sources */,
