@@ -64,8 +64,13 @@ struct CheckoutView: View {
         .alert(isPresented: $alertShowing) {
             Alert(title: Text("Order Confirmed"),
                   message: Text("Total was $\(totalPrice, specifier: "%2.f")"),
-                  dismissButton: .default(Text("Ok")))
+                  dismissButton: .default(Text("Ok"), action: completeOrder))
         }
+    }
+    
+    private func completeOrder() {
+        
+        order.clear()
     }
 }
 
