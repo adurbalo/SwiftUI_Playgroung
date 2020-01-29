@@ -10,6 +10,8 @@ import SwiftUI
 
 struct ItemDetails: View {
     
+    @EnvironmentObject var order: Order
+    
     var item: MenuItem
     
     var body: some View {
@@ -26,13 +28,22 @@ struct ItemDetails: View {
             
             Text(item.description)
                 .padding()
+            Button("Order This") {
+                self.order.add(item: self.item)
+            }.font(.headline)
+            
             Spacer()
         }.navigationBarTitle(Text(item.name), displayMode: .inline)
     }
 }
 
 struct ItemDetails_Previews: PreviewProvider {
+    
+    static let order = Order()
+    
     static var previews: some View {
-        ItemDetails(item: MenuItem.example)
+        NavigationView {
+            ItemDetails(item: MenuItem.example).environmentObject(order)
+        }
     }
 }
